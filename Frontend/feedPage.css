@@ -1,0 +1,23 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: rgb(239, 242, 240);
+}
+.allPosts{
+    padding: 10px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.post{
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+    border-radius: 12px;
+}
+.viewPostBtn{
+    background: linear-gradient(to right, rgb(139,92,246),rgb(14,165,233));
+    color: white;
+}
