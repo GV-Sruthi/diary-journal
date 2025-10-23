@@ -40,7 +40,7 @@
              const formData = new FormData(form);
              const plainData = Object.fromEntries(formData.entries());
              const jsonData = JSON.stringify(plainData);
-            const response= await fetch('http://localhost:3000/registerUser',{
+            const response= await fetch('https://diary-journal-backend.onrender.com/registerUser',{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json'
